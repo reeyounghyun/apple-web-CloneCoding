@@ -1,1 +1,80 @@
 @charset "uft-8";
+
+.category-link .link-wrap .link-title strong{
+	display: block;
+	text-align: center;
+	font-size: 64px;
+	font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic",
+	"HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", 
+	"Helvetica", "Arial", sans-serif; 
+}
+
+.product-list{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.list{
+	max-width: 100%;
+	margin: 0 auto;
+}
+.list a{
+	display: inline-block;
+	text-align: center;
+	color: #1d1d1f;
+}
+.list .list-img{
+	width: 96px;
+}
+
+.link-area>div{
+	margin-top: 68px;
+}
+
+.popular-cs ul{
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0, 1fr));
+	grid-column-gap: 24px;
+	grid-row-gap: 24px;
+}
+.popular-cs ul li{
+	background-color: #f5f5f7;
+	padding: 40px 8.33333%;
+	word-break: break-word;
+	box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.08);
+	grid-column: span 4;
+	border-radius: 18px;
+}
+.popular-cs ul li span{
+	display: block;
+	text-align: center;
+	color: #0066cc;
+}
+.popular-cs ul li .list-img{
+	display: block;
+	text-align: center;
+}
+.popular-cs ul li .list-img>img{
+	height: 60px;
+	width: 60px;
+	vertical-align: bottom;
+	margin-bottom: 16px;
+}
+.category-link .search-wrap .link-title strong{
+	font-size: 40px;
+}
+.category-link .search-wrap .search-area{
+	width: 100%;
+}
+.category-link .search-wrap .search-area label{
+	display: block;
+	width: 100%;
+}
+.category-link .search-wrap .search-area input{
+	display: block;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 20px;
+}
