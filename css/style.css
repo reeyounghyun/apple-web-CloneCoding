@@ -77,4 +77,37 @@
 	width: 100%;
 	border: 1px solid #ddd;
 	border-radius: 20px;
+	padding-left: 20px;
+    padding-top: 30px;
+}
+
+/* 지원받기&지원앱 stert */
+.all-contenas{
+	display: flex;
+}
+/* 유사/모조품 주의 stert */
+.cs-list .inner-cs1>.txt{
+	text-align: left;
+	padding-top: 20px;
+}
+
+/* Apple 서비스 프로그램 stert */
+.apple-service{
+	width: 980px;
+	margin: 60px auto;
+}
+.apple-service .link-title{
+	padding: 0;
+}
+.apple-service .link-title>strong{
+	text-align: left;
+	font-size: 24px;
+	font-weight: 600;
+}
+.apple-service ul li + li{
+	margin-top: 10px;
+}
+.apple-service ul li a{
+	display: block;
+	color: #0066cc
 }
