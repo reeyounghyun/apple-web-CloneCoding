@@ -1,13 +1,11 @@
 @charset "uft-8";
-
 body{
 	word-break: keep-all;
-	box-sizing: border-box;
+	box-sizing: border-box;	
 }
-/* .wraping{
-	width: 980px;
-	margin: 0 auto;
-} */
+img{
+	max-width: 100%;
+}
 .gray-background {
 	background-color: #f5f5f7;
 } 
@@ -19,7 +17,7 @@ body{
 	font-size: 40px;
 	font-weight: 600;
 	color: #1d1d1f;
-	padding: 20px 0;
+	padding-bottom: 30px;
 }
 .txt{
 	color:#1d1d1f;
@@ -41,8 +39,14 @@ strong{
   box-sizing: border-box;
   padding: 30px;
 }
+.txt-inden{
+	position: absolute;
+	text-indent: -9999px;
+	color: initial;
+}
 
 
+/* 웹폰트 */
 /** Ultra Light */
 @font-face {
   font-family: "San Francisco";
