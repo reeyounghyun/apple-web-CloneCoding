@@ -14,23 +14,34 @@
 .wrap-cont{
 	width: 100%;
 	max-width: 980px;
-	margin: 60px auto 60px;
+	margin: 40px auto 60px auto;
 }
 .wrap-cont>div{
 	padding-bottom: 60px;
 }
 /* e: 전체를 묶는 div */
 
-/* s: 타이틀 */
-.link-wrap .link-title strong{
-	display: block;
-	text-align: center;
-	font-size: 64px;
-	font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic",
-	"HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", 
-	"Helvetica", "Arial", sans-serif; 
+/* s: apple 지원*/
+.product-list{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
 }
-/* e: 타이틀 */
+.product-list .list{
+	max-width: 100%;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.product-list .list a{
+	display: inline-block;
+	text-align: center;
+	color: #1d1d1f;
+}
+.product-list .list .list-img{
+	width: 96px;
+}
+/* e: apple 지원 */
 
 /* s: 추가 주제 검색하기 */
 .search-area {
@@ -63,27 +74,35 @@
 } 
 /* e: 추가 주제 검색하기 */
 
-/* s: apple 지원*/
-.product-list{
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	align-items: center;
+/* s: 최신 버전 다운로드 하기 */
+.comm-area .inner-cs + .inner-cs{
+	margin-top: 30px;
 }
-.product-list .list{
-	max-width: 100%;
-	margin: 0 auto;
-	cursor: pointer;
-}
-.product-list .list a{
-	display: inline-block;
+.link-wrap .link-title strong{
+	display: block;
 	text-align: center;
-	color: #1d1d1f;
+	font-size: 40px;
+	font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic",
+	"HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", 
+	"Helvetica", "Arial", sans-serif; 
 }
-.product-list .list .list-img{
-	width: 96px;
+.comm-area .inner-cs .link-title{
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
-/* e: apple 지원 */
+.comm-area .inner-cs>p.txt{
+	padding-bottom: 10px;
+}
+.comm-area .inner-cs .cs-link{
+	padding-bottom: 10px;
+}
+.comm-area .inner-cs .cont-img{
+	display: block;
+	padding-top: 30px;
+}
+.comm-area .inner-cs .cont-img img{
+	display: block;
+}
 
 .popular-cs ul{
 	display: grid;

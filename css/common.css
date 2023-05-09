@@ -2,9 +2,11 @@
 /* 배경 컬러 */
 .gray-background {
 	background-color: #f5f5f7;
+	overflow: hidden;
 } 
 .White-background {
 	background-color: #fff;
+	overflow: hidden;
 } 
 
 /* 공통 타이틀 제목 */
