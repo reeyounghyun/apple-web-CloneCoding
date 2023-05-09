@@ -1,5 +1,8 @@
 @charset "uft-8";
 
+.banner-img img{
+	display: block;
+}
 .category-link .link-wrap .link-title strong{
 	display: block;
 	text-align: center;
@@ -8,14 +11,12 @@
 	"HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", 
 	"Helvetica", "Arial", sans-serif; 
 }
-
 .product-list{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: center;
 }
-
 .list{
 	max-width: 100%;
 	margin: 0 auto;
@@ -28,11 +29,6 @@
 .list .list-img{
 	width: 96px;
 }
-
-.link-area>div{
-	margin-top: 68px;
-}
-
 .popular-cs ul{
 	display: grid;
 	grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -62,18 +58,16 @@
 	vertical-align: bottom;
 	margin-bottom: 16px;
 }
-.category-link .search-wrap .link-title strong{
+.search-wrap .link-title strong{
 	font-size: 40px;
 }
-.category-link .search-wrap .search-area{
+.search-wrap .search-area{
 	width: 100%;
 }
-.category-link .search-wrap .search-area label{
-	display: block;
+.search-wrap .search-area label{
 	width: 100%;
 }
-.category-link .search-wrap .search-area input{
-	display: block;
+.search-wrap .search-area input{
 	width: 100%;
 	border: 1px solid #ddd;
 	border-radius: 20px;
@@ -85,15 +79,11 @@
 .all-contenas{
 	display: flex;
 }
-.all-contenas .cs-receive{
-	
-}
 /* 유사/모조품 주의 stert */
 .cs-list .inner-cs1>.txt{
 	text-align: left;
 	padding-top: 20px;
 }
-
 /* Apple 서비스 프로그램 stert */
 .apple-service{
 	width: 980px;

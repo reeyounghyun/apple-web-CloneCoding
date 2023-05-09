@@ -1,24 +1,20 @@
 @charset "uft-8";
-body{
-	word-break: keep-all;
-	box-sizing: border-box;	
-}
-img{
-	max-width: 100%;
-}
+/* 배경 컬러 */
 .gray-background {
 	background-color: #f5f5f7;
 } 
 .White-background {
 	background-color: #fff;
-  
 } 
+
+/* 공통 타이틀 제목 */
 .link-title {
 	font-size: 40px;
 	font-weight: 600;
 	color: #1d1d1f;
-	padding-bottom: 30px;
 }
+
+/* 폰트 컬러 */
 .txt{
 	color:#1d1d1f;
 	text-align: center;
@@ -34,17 +30,19 @@ strong{
   display: block;
   letter-spacing: 0;
 }
-.inner-cs,.inner-cs1{
+
+/* div 테두리 */
+.inner-cs{
   border-radius: 20px;
   box-sizing: border-box;
-	padding: 30px 0;
 }
+
+/* 접근성 */
 .txt-inden{
 	position: absolute;
 	text-indent: -9999px;
 	color: initial;
 }
-
 
 /* 웹폰트 */
 /** Ultra Light */
