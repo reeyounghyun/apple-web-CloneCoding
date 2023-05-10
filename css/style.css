@@ -1,8 +1,8 @@
 @charset "uft-8";
-
 .wrapper{
 	overflow: hidden;
 }
+
 
 /* s: 배너 이미지 */
 .banner-img img{
@@ -10,18 +10,32 @@
 }
 /* e: 배너 이미지 */
 
+
+
 /* s:전체를 묶는 div */
 .wrap-cont{
 	width: 100%;
 	max-width: 980px;
-	margin: 40px auto 60px auto;
+	margin: 65px auto 65px auto;
 }
 .wrap-cont>div{
-	padding-bottom: 60px;
+	padding-bottom: 65px;
 }
 /* e: 전체를 묶는 div */
 
+
+
 /* s: apple 지원*/
+.link-area .link-title{
+	padding-bottom: 54px;
+	line-height: 1.17188;
+}
+.link-area .link-title strong{
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 1.17188;
+	letter-spacing: -0.04em;
+}
 .product-list{
 	display: flex;
 	justify-content: space-between;
@@ -29,17 +43,26 @@
 	align-items: center;
 }
 .product-list .list{
-	max-width: 100%;
-	margin: 0 auto;
+	display: block;
+	flex: 1 1 auto;
+	width: 12.5%;
+	text-align: center;
 	cursor: pointer;
 }
 .product-list .list a{
+	display: block;
+}
+.product-list .list span{
 	display: inline-block;
+	padding: 0 10px;
 	text-align: center;
 	color: #1d1d1f;
+	font-size: 17px;
+	text-transform: capitalize;
+	letter-spacing: 0.1px;
 }
 .product-list .list .list-img{
-	width: 96px;
+	padding-bottom:10px;
 }
 .popular-cs ul{
 	display: grid;
@@ -58,8 +81,13 @@
 }
 .popular-cs ul li span{
 	display: block;
+	padding-top: 10px;
+	letter-spacing: -0.07em;
 	text-align: center;
 	color: #0066cc;
+	color: rgb(0, 102,204);
+	font-weight: 600;
+	opacity: 0.8;
 }
 .popular-cs ul li .list-img{
 	display: block;
@@ -72,10 +100,13 @@
 	margin-bottom: 16px;
 }
 .search-wrap .link-title strong{
-	font-size: 40px;
+	font-size: 38px;
+	line-height: 1.2;
+	letter-spacing: -0.04em;
 }
-
 /* e: apple 지원 */
+
+
 
 /* s: 추가 주제 검색하기 */
 .search-area {
@@ -85,13 +116,29 @@
 .search-area label{
 	width: 100%;
 }
+.search-area .search-txt{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	border: none;
+	box-sizing: border-box;
+	padding-left: 33px;
+	z-index: 1;
+}
+.search-area .search-txt span{
+	font-size: 14px;
+	color: #1d1d1f;
+	font-weight: 600;
+	opacity: 0.5;
+	letter-spacing: -0.05em;
+}
 .search-area input{
 	width: 100%;
 	height: 50px;
 	padding-left: 50px;
 	outline: none;
-	border: 1px solid #ddd;
-	border-radius: 20px;
+	border: 1px solid #d2d2d7;
+	border-radius: 15px;
 }
 .search-area .serch-btn{
 	width: 30px;
@@ -108,6 +155,7 @@
 } 
 /* e: 추가 주제 검색하기 */
 
+
 /* s: 최신 버전 다운로드 하기 */
 .comm-area .inner-cs + .inner-cs{
 	margin-top: 30px;
@@ -116,20 +164,39 @@
 	display: block;
 	text-align: center;
 	font-size: 40px;
-	font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic",
-	"HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", 
-	"Helvetica", "Arial", sans-serif; 
 }
 .comm-area .inner-cs .link-title{
-	padding-top: 30px;
+	padding-top: 34px;
 	padding-bottom: 10px;
 }
 .comm-area .inner-cs>p.txt{
 	padding-bottom: 10px;
+	letter-spacing: -0.02em;
+	color: rgb(29,29,31);
+	font-size: 15px;
 }
 .comm-area .inner-cs .cs-link{
 	padding-bottom: 10px;
+	letter-spacing: -0.02em;
+	color: rgb(29,29,31);
+	font-size: 15px;
 }
+.inner-cs .cs-link a{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.inner-cs .cs-link a span{
+	display: inline-block;
+	letter-spacing: -0.08em;
+	font-weight: 500;
+}
+.inner-cs .cs-link a .goo-icon{
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 500;
+}
+
 .comm-area .inner-cs .cont-img{
 	display: block;
 	padding-top: 30px;
@@ -137,6 +204,8 @@
 .comm-area .inner-cs .cont-img img{
 	display: block;
 }
+
+
 /* e: 최신 버전 다운로드 하기 */
 .receive {
 	flex: 2 1 auto;
@@ -181,7 +250,6 @@
 	max-width: 262px;
 	margin: 0 auto;
 }
-
 /* s: 지원받기 & apple 지원 앱 */
 
 
@@ -195,6 +263,50 @@
 	text-align: left;
 	padding-top: 20px;
 }
+
+
+
+/* s: 나의 지원&애플케어 플러스 유사&모조품주의  공통*/
+.comm-buttom{
+	padding-bottom: 0;
+	margin-bottom: 30px;
+}
+.comm-buttom:last-child{
+	padding-bottom: 0;
+}
+.comm-buttom .link-title{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.comm-buttom>p.txt{
+	padding-bottom: 10px;
+}
+.comm-buttom .cs-link{
+	padding-bottom: 10px;
+}
+/* e  나의지원&애플케어 플러스 유사 &모조품주의 공통*/
+
+
+
+/* s: 유사/모조품 주의*/
+.txt-left {
+	padding: 20px;
+}
+.txt-left .link-title strong{
+	text-align: left;
+	font-size: 24px;
+}
+.txt-left>p.txt{
+	text-align: left;
+}
+.txt-left span.txt-bule{
+	display: inline-block;
+	color: #0066cc;
+}
+/* e: 유사/모조품 주의 */
+
+
+
 /* Apple 서비스 프로그램 stert */
 .apple-service{
 	width: 980px;
@@ -209,8 +321,8 @@
 	font-weight: 600;
 }
 .apple-service ul li + li{
-	margin-top: 10px;
-}
+	margin-top: 10px; 
+} 
 .apple-service ul li a{
 	display: block;
 	color: #0066cc
