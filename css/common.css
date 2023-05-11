@@ -111,7 +111,8 @@ em{
 
 /* s: 공통 스타일  */
 .br{display: none;}
-.pc-version{display: block;}
+
+/* .pc-version{display: block;} */
 
 /* 배경 컬러 */
 .gray-background {

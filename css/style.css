@@ -415,7 +415,7 @@
 @media screen and (max-width:1024px){
 	/* 곹통 */
 	strong{font-size: 25px;}
-	.br{display: block;}
+	/* .br{display: block;} */
 	.pc-version{display: none;}
 	.link-title{padding-bottom: 30px;}
 	/* 공통 */
@@ -432,8 +432,6 @@
 		padding-bottom: 30px;
 	}
 	.product-list .list {
-    width: 33.333%;
-		flex: initial;
 		padding-bottom: 30px;
 	}
 	.product-list .list span{
@@ -496,6 +494,9 @@
 }/* e: 태블릿 */
 
 @media screen and (max-width:768px){
+	.apple-service{
+		margin: 20px auto;
+	}
 	.wrap-cont{
 		margin-left: auto;
 		margin-right: auto;
@@ -529,5 +530,8 @@
 		width: 100%;
 		flex: 1 1 auto;
 		flex-basis: 50%;
+	}
+	.cs-list .wrap-cont .txt-left {
+    padding: 20px;
 	}
 }/* e: 모바일 */
