@@ -135,6 +135,7 @@
 	padding-left: 50px;
 	outline: none;
 	border: 1px solid #d2d2d7;
+	box-sizing: border-box;
 	border-radius: 15px;
 }
 .search-area .serch-btn{
@@ -411,6 +412,10 @@
 /* e: Apple 서비스 프로그램 */
 
 @media screen and (max-width:1024px){
+	/* 곹통 */
+	strong{font-size: 25px;}
+
+	/* 공통 */
 	.banner-img img{
 		width: initial;
     max-width: 1024px;
@@ -421,11 +426,99 @@
 	}
 	.product-list .list {
     width: 33.333%;
-		flex: 1;
+		flex: initial;
+		padding-bottom: 30px;
+	}
+	.product-list .list span{
+		font-size: 16px;
+	}
+	.list-img img{
+		max-width:68px;
+		width: 100%;
+	}
+	.search-wrap .link-title strong{
+		font-size: 25px;
+	}
+	.link-wrap .link-title strong{
+		font-size: 25px;
+	}
+	.comm-area .inner-cs p.txt{
+		font-size: 12px;
+	}
+	.inner-cs .cs-link a span{
+		font-size: 12px;
+	}
+	.receive p.txt{
+		font-size: 12px;
+	}
+	.receive .cs-link span{
+		font-size: 12px;
+	}
+	.app p.txt{
+		font-size: 12px;
+	}
+	.app .cs-link span{
+		font-size: 12px;
+	}
+	.comm-buttom p.txt{
+		font-size: 12px;
+	}
+	.txt-left .link-title strong{
+		font-size: 15px;
+	}
+	.apple-service .link-title>strong{
+		font-size: 15px;
+	}
+	.apple-service ul li a span{
+		font-size: 12px;
+	}
+	.txt-left span.txt-bule{
+		font-size: 12px;
+	}
+	.apple-service ul li + li{
+		margin-top: 0;
+	}
+	.apple-service{
+		width: 87.5%;
+		margin: 60px;
 	}
 
 }/* 태블릿 */
 
 @media screen and (max-width:768px){
-
+	.wrap-cont{
+		margin-left: auto;
+		margin-right: auto;
+		width: 87.5%;
+	}
+	.product-list .list {
+    width: 100px;
+    flex: 1;
+    padding: 10px;
+	}
+	.popular-cs ul {
+    grid-template-columns: initial;
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+	}
+	.all-contenas{
+		margin-left: auto;
+		margin-right: auto;
+		width: 87.5%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.receive{
+		max-width: 768px;
+		width: 100%;
+		flex: 1 1 auto;
+		flex-basis: 50%;
+		margin-bottom: 30px;
+	}
+	.app{
+		max-width: 768px;
+		width: 100%;
+		flex: 1 1 auto;
+		flex-basis: 50%;
+	}
 }/* 모바일 */
