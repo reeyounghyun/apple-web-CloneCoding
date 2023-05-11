@@ -411,11 +411,15 @@
 }
 /* e: Apple 서비스 프로그램 */
 
+
 @media screen and (max-width:1024px){
 	/* 곹통 */
 	strong{font-size: 25px;}
-
+	.br{display: block;}
+	.pc-version{display: none;}
+	.link-title{padding-bottom: 30px;}
 	/* 공통 */
+
 	.banner-img img{
 		width: initial;
     max-width: 1024px;
@@ -424,6 +428,9 @@
 	.link-area .link-title strong {
     font-size: 40px;
 	}
+	.link-area .link-title{
+		padding-bottom: 30px;
+	}
 	.product-list .list {
     width: 33.333%;
 		flex: initial;
@@ -431,6 +438,9 @@
 	}
 	.product-list .list span{
 		font-size: 16px;
+	}
+	.product-list{
+		justify-content: center;
 	}
 	.list-img img{
 		max-width:68px;
@@ -483,7 +493,7 @@
 		margin: 60px;
 	}
 
-}/* 태블릿 */
+}/* e: 태블릿 */
 
 @media screen and (max-width:768px){
 	.wrap-cont{
@@ -493,7 +503,6 @@
 	}
 	.product-list .list {
     width: 100px;
-    flex: 1;
     padding: 10px;
 	}
 	.popular-cs ul {
@@ -521,4 +530,4 @@
 		flex: 1 1 auto;
 		flex-basis: 50%;
 	}
-}/* 모바일 */
+}/* e: 모바일 */
