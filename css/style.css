@@ -409,3 +409,23 @@
 	opacity: 0.8;;
 }
 /* e: Apple 서비스 프로그램 */
+
+@media screen and (max-width:1024px){
+	.banner-img img{
+		width: initial;
+    max-width: 1024px;
+    margin: 0 auto;
+	}
+	.link-area .link-title strong {
+    font-size: 40px;
+	}
+	.product-list .list {
+    width: 33.333%;
+		flex: 1;
+	}
+
+}/* 태블릿 */
+
+@media screen and (max-width:768px){
+
+}/* 모바일 */
