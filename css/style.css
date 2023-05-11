@@ -497,7 +497,7 @@
 	.apple-service{
 		margin: 20px auto;
 	}
-	
+
 	.wrap-cont{
 		margin-left: auto;
 		margin-right: auto;
@@ -513,24 +513,21 @@
     grid-row-gap: 30px;
 	}
 	.all-contenas{
-		margin-left: auto;
-		margin-right: auto;
-		width: 87.5%;
-		flex-direction: column;
-		justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
 	}
 	.receive{
-		max-width: 768px;
-		width: 100%;
-		flex: 1 1 auto;
-		flex-basis: 50%;
-		margin-bottom: 30px;
+		width: 87.5%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
 	}
 	.app{
-		max-width: 768px;
-		width: 100%;
-		flex: 1 1 auto;
-		flex-basis: 50%;
+    width: 87.5%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-sizing: border-box;
 	}
 	.cs-list .wrap-cont .txt-left {
     padding: 20px;
