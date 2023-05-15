@@ -1,56 +1,54 @@
 @charset "uft-8";
-.wrapper{
+.wrapper {
 	overflow: hidden;
 }
 
 /* s: 배너 이미지 */
-.banner-img img{
+.banner-img img {
 	display: block;
-	width:100%;
+	width: 100%;
 }
 /* e: 배너 이미지 */
 
-
 /* s:전체를 묶는 div */
-.wrap-cont{
+.wrap-cont {
 	width: 100%;
 	max-width: 980px;
 	margin: 65px auto 65px auto;
 }
-.wrap-cont>div{
+.wrap-cont > div {
 	padding-bottom: 65px;
 }
 /* e: 전체를 묶는 div */
 
-
 /* s: apple 지원*/
-.link-area .link-title{
+.link-area .link-title {
 	padding-bottom: 54px;
 	line-height: 1.17188;
 }
-.link-area .link-title strong{
+.link-area .link-title strong {
 	font-size: 60px;
 	font-weight: 600;
 	line-height: 1.17188;
 	letter-spacing: -0.04em;
 }
-.product-list{
+.product-list {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: center;
 }
-.product-list .list{
+.product-list .list {
 	display: block;
 	flex: 1 1 auto;
 	width: 12.5%;
 	text-align: center;
 	cursor: pointer;
 }
-.product-list .list a{
+.product-list .list a {
 	display: block;
 }
-.product-list .list span{
+.product-list .list span {
 	display: inline-block;
 	padding: 0 10px;
 	text-align: center;
@@ -59,16 +57,16 @@
 	text-transform: capitalize;
 	letter-spacing: 0.1px;
 }
-.product-list .list .list-img{
-	padding-bottom:10px;
+.product-list .list .list-img {
+	padding-bottom: 10px;
 }
-.popular-cs ul{
+.popular-cs ul {
 	display: grid;
 	grid-template-columns: repeat(12, minmax(0, 1fr));
 	grid-column-gap: 24px;
 	grid-row-gap: 24px;
 }
-.popular-cs ul li{
+.popular-cs ul li {
 	background-color: #f5f5f7;
 	padding: 40px 8.33333%;
 	word-break: break-word;
@@ -77,43 +75,42 @@
 	border-radius: 18px;
 	cursor: pointer;
 }
-.popular-cs ul li span{
+.popular-cs ul li span {
 	display: block;
 	padding-top: 10px;
 	letter-spacing: -0.07em;
 	text-align: center;
 	color: #0066cc;
-	color: rgb(0, 102,204);
+	color: rgb(0, 102, 204);
 	font-weight: 600;
 	opacity: 0.8;
 }
-.popular-cs ul li .list-img{
+.popular-cs ul li .list-img {
 	display: block;
 	text-align: center;
 }
-.popular-cs ul li .list-img>img{
+.popular-cs ul li .list-img > img {
 	height: 60px;
 	width: 60px;
 	vertical-align: bottom;
 	margin-bottom: 16px;
 }
-.search-wrap .link-title strong{
+.search-wrap .link-title strong {
 	font-size: 38px;
 	line-height: 1.2;
 	letter-spacing: -0.04em;
 }
 /* e: apple 지원 */
 
-
 /* s: 추가 주제 검색하기 */
 .search-area {
 	position: relative;
 	width: 100%;
 }
-.search-area label{
+.search-area label {
 	width: 100%;
 }
-.search-area .search-txt{
+.search-area .search-txt {
 	position: absolute;
 	top: 15px;
 	left: 15px;
@@ -122,14 +119,14 @@
 	padding-left: 33px;
 	z-index: 1;
 }
-.search-area .search-txt span{
+.search-area .search-txt span {
 	font-size: 14px;
 	color: #1d1d1f;
 	font-weight: 600;
 	opacity: 0.5;
 	letter-spacing: -0.05em;
 }
-.search-area input{
+.search-area input {
 	width: 100%;
 	height: 50px;
 	padding-left: 50px;
@@ -138,7 +135,7 @@
 	box-sizing: border-box;
 	border-radius: 15px;
 }
-.search-area .serch-btn{
+.search-area .serch-btn {
 	width: 30px;
 	height: 30px;
 	position: absolute;
@@ -150,74 +147,73 @@
 	border-radius: 50px;
 	text-indent: -9999px;
 	opacity: 50%;
-} 
+}
 /* e: 추가 주제 검색하기 */
 
-
 /* s: 최신 버전 다운로드 하기 */
-.contans-inner .wrap-cont .link-wrap{
+.contans-inner .wrap-cont .link-wrap {
 	padding-bottom: 0;
 }
-.comm-area .inner-cs + .inner-cs{
+.comm-area .inner-cs + .inner-cs {
 	margin-top: 30px;
 }
-.link-wrap .link-title strong{
+.link-wrap .link-title strong {
 	display: block;
 	text-align: center;
 	font-size: 35px;
 }
-.comm-area .inner-cs .link-title{
+.comm-area .inner-cs .link-title {
 	padding-top: 35px;
 	padding-bottom: 10px;
 }
-.comm-area .inner-cs p.txt{
+.comm-area .inner-cs p.txt {
 	padding-bottom: 10px;
 	letter-spacing: -0.02em;
-	color: rgb(29,29,31);
+	color: rgb(29, 29, 31);
 	font-size: 15px;
 	font-weight: 600;
 	opacity: 0.7;
 }
-.comm-area .inner-cs .cs-link{
+.comm-area .inner-cs .cs-link {
 	padding-bottom: 10px;
 	letter-spacing: -0.02em;
-	color: rgb(29,29,31);
+	color: rgb(29, 29, 31);
 	font-size: 15px;
 }
-.inner-cs .cs-link a{
+.inner-cs .cs-link a {
 	display: inline-block;
 	text-align: center;
 	width: 100%;
 }
-.inner-cs .cs-link a span{
+.inner-cs .cs-link a span {
 	display: inline-block;
 	letter-spacing: -0.08em;
 	font-weight: 600;
 	opacity: 0.8;
 }
-.inner-cs .cs-link a .goo-icon{
+.inner-cs .cs-link a .goo-icon {
 	display: inline-block;
 	font-size: 11px;
 	font-weight: 500;
 }
 
-.comm-area .inner-cs .cont-img{
+.comm-area .inner-cs .cont-img {
 	display: block;
 	padding-top: 30px;
 }
-.comm-area .inner-cs .cont-img img{
+.comm-area .inner-cs .cont-img img {
 	display: block;
 }
 /* e: 최신 버전 다운로드 하기 */
 
 /* s: 지원받기 & apple 지원 앱 */
-.inner-flex{
+.inner-flex {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
-.all-contenas .inner-flex>.inner{
+.all-contenas .inner-flex > .inner {
 	padding-bottom: 30px;
 }
 .receive {
@@ -228,19 +224,19 @@
 	box-sizing: border-box;
 	margin-right: 20px;
 }
-.receive .link-title{
+.receive .link-title {
 	padding-top: 30px;
 	padding-bottom: 10px;
 }
-.receive p.txt{
+.receive p.txt {
 	padding-bottom: 10px;
 	letter-spacing: -0.02em;
-	color: rgb(29,29,31);
+	color: rgb(29, 29, 31);
 	font-size: 15px;
 	font-weight: 600;
 	opacity: 0.7;
 }
-.receive .cs-link{
+.receive .cs-link {
 	display: block;
 	width: 120px;
 	margin: 0 auto;
@@ -251,22 +247,22 @@
 	box-sizing: border-box;
 	overflow: hidden;
 }
-.receive .cs-link span{
+.receive .cs-link span {
 	text-align: center;
 	color: #fff;
 	letter-spacing: -0.07em;
 	font-size: 15px;
 	font-weight: 600;
 }
-.receive .cont-img{
+.receive .cont-img {
 	display: block;
-	max-width: 1440px;	
+	max-width: 1440px;
 }
-.receive .cont-img img{
+.receive .cont-img img {
 	display: block;
 	width: 100%;
 }
-.app{
+.app {
 	flex: 1 1 auto;
 	flex-basis: 21%;
 	padding: 40px;
@@ -278,92 +274,89 @@
 	max-width: 262px;
 	width: 100%;
 }
-.app .cont-img img{
+.app .cont-img img {
 	display: block;
 }
-.app .link-title{
+.app .link-title {
 	padding-top: 30px;
 	padding-bottom: 10px;
 }
-.app p.txt{
+.app p.txt {
 	padding-bottom: 10px;
 	letter-spacing: -0.02em;
 	line-height: 1.7;
-	color: rgb(29,29,31);
+	color: rgb(29, 29, 31);
 	font-size: 15px;
 	font-weight: 600;
 	opacity: 0.7;
 }
-.app .cs-link a{
+.app .cs-link a {
 	display: inline-block;
 	text-align: center;
 	width: 100%;
 }
-.app .cs-link span{
+.app .cs-link span {
 	display: inline-block;
 	letter-spacing: -0.08em;
 	font-weight: 600;
 	opacity: 0.8;
 }
-.app .cs-link .goo-icon{
+.app .cs-link .goo-icon {
 	display: inline-block;
 	font-size: 15px;
 	font-weight: 500;
 }
-.cs-list .my-page{
+.cs-list .my-page {
 	padding: 20px;
-} 
-.all-contenas{
+}
+.all-contenas {
 	display: flex;
 	justify-content: space-between;
 }
 /* e: 지원받기 & apple 지원 앱 */
 
-
 /* 유사/모조품 주의 stert */
-.cs-list .inner-cs1>.txt{
+.cs-list .inner-cs1 > .txt {
 	text-align: left;
 	padding-top: 20px;
 }
 
-
 /* s: 나의 지원&애플케어 플러스 유사&모조품주의  공통*/
-.comm-buttom{
+.comm-buttom {
 	padding-bottom: 0;
 	margin-bottom: 30px;
 }
-.comm-buttom:last-child{
+.comm-buttom:last-child {
 	padding-bottom: 0;
 }
-.comm-buttom .link-title{
+.comm-buttom .link-title {
 	padding-top: 30px;
 	padding-bottom: 10px;
 }
-.comm-buttom p.txt{
+.comm-buttom p.txt {
 	padding-bottom: 10px;
 	letter-spacing: -0.02em;
-	color: rgb(29,29,31);
+	color: rgb(29, 29, 31);
 	font-size: 15px;
 	font-weight: 600;
 	opacity: 0.7;
 }
-.comm-buttom .cs-link{
+.comm-buttom .cs-link {
 	padding-bottom: 10px;
 }
 /* e  나의지원&애플케어 플러스 유사 &모조품주의 공통*/
-
 
 /* s: 유사/모조품 주의*/
 .cs-list .wrap-cont .txt-left {
 	padding: 30px 50px;
 	margin-bottom: 0;
 }
-.txt-left .link-title strong{
+.txt-left .link-title strong {
 	text-align: left;
 	font-size: 21px;
 	font-weight: 800;
 }
-.txt-left>p.txt{
+.txt-left > p.txt {
 	text-align: left;
 	font-size: 15px;
 	line-height: 1.8;
@@ -371,7 +364,7 @@
 	letter-spacing: -0.01em;
 	opacity: 0.7;
 }
-.txt-left span.txt-bule{
+.txt-left span.txt-bule {
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 600;
@@ -380,156 +373,159 @@
 }
 /* e: 유사/모조품 주의 */
 
-
 /* s: Apple 서비스 프로그램 */
-.apple-service{
+.apple-service {
 	width: 980px;
 	margin: 60px auto;
 }
-.apple-service .link-title{
+.apple-service .link-title {
 	padding-bottom: 10px;
 }
-.apple-service .link-title>strong{
+.apple-service .link-title > strong {
 	text-align: left;
 	font-size: 21px;
 	font-weight: 600;
 }
-.apple-service ul li + li{
-	margin-top: 10px; 
-} 
-.apple-service ul li span{
+.apple-service ul li + li {
+	margin-top: 10px;
+}
+.apple-service ul li span {
 	opacity: 1;
 }
-.apple-service ul li a{
+.apple-service ul li a {
 	font-weight: 400;
 }
-.apple-service ul li a span{
+.apple-service ul li a span {
 	color: #0066cc;
 	font-size: 16px;
 	font-weight: 600;
-	opacity: 0.8;;
+	opacity: 0.8;
 }
 /* e: Apple 서비스 프로그램 */
 
-
-@media screen and (max-width:1024px){
+@media screen and (max-width: 1024px) {
 	/* 곹통 */
-	strong{font-size: 25px;}
+	strong {
+		font-size: 25px;
+	}
 	/* .br{display: block;} */
-	.pc-version{display: none;}
-	.link-title{padding-bottom: 30px;}
+	.pc-version {
+		display: none;
+	}
+	.link-title {
+		padding-bottom: 30px;
+	}
 	/* 공통 */
 
-	.banner-img img{
+	.banner-img img {
 		width: initial;
-    max-width: 1024px;
-    margin: 0 auto;
+		max-width: 1024px;
+		margin: 0 auto;
 	}
 	.link-area .link-title strong {
-    font-size: 40px;
+		font-size: 40px;
 	}
-	.link-area .link-title{
+	.link-area .link-title {
 		padding-bottom: 30px;
 	}
 	.product-list .list {
 		padding-bottom: 30px;
 	}
-	.product-list .list span{
+	.product-list .list span {
 		font-size: 16px;
 	}
-	.product-list{
+	.product-list {
 		justify-content: center;
 	}
-	.list-img img{
-		max-width:68px;
+	.list-img img {
+		max-width: 68px;
 		width: 100%;
 	}
-	.search-wrap .link-title strong{
+	.search-wrap .link-title strong {
 		font-size: 25px;
 	}
-	.link-wrap .link-title strong{
+	.link-wrap .link-title strong {
 		font-size: 25px;
 	}
-	.comm-area .inner-cs p.txt{
+	.comm-area .inner-cs p.txt {
 		font-size: 12px;
 	}
-	.inner-cs .cs-link a span{
+	.inner-cs .cs-link a span {
 		font-size: 12px;
 	}
-	.receive p.txt{
+	.receive p.txt {
 		font-size: 12px;
 	}
-	.receive .cs-link span{
+	.receive .cs-link span {
 		font-size: 12px;
 	}
-	.app p.txt{
+	.app p.txt {
 		font-size: 12px;
 	}
-	.app .cs-link span{
+	.app .cs-link span {
 		font-size: 12px;
 	}
-	.comm-buttom p.txt{
+	.comm-buttom p.txt {
 		font-size: 12px;
 	}
-	.txt-left .link-title strong{
+	.txt-left .link-title strong {
 		font-size: 15px;
 	}
-	.apple-service .link-title>strong{
+	.apple-service .link-title > strong {
 		font-size: 15px;
 	}
-	.apple-service ul li a span{
+	.apple-service ul li a span {
 		font-size: 12px;
 	}
-	.txt-left span.txt-bule{
+	.txt-left span.txt-bule {
 		font-size: 12px;
 	}
-	.apple-service ul li + li{
+	.apple-service ul li + li {
 		margin-top: 0;
 	}
-	.apple-service{
+	.apple-service {
 		width: 87.5%;
 		margin: 60px;
 	}
+} /* e: 태블릿 */
 
-}/* e: 태블릿 */
-
-@media screen and (max-width:768px){
-	.apple-service{
+@media screen and (max-width: 768px) {
+	.apple-service {
 		margin: 20px auto;
 	}
 
-	.wrap-cont{
+	.wrap-cont {
 		margin-left: auto;
 		margin-right: auto;
 		width: 87.5%;
 	}
 	.product-list .list {
-    width: 100px;
-    padding: 10px;
+		width: 100px;
+		padding: 10px;
 	}
 	.popular-cs ul {
-    grid-template-columns: initial;
-    grid-column-gap: 10px;
-    grid-row-gap: 30px;
+		grid-template-columns: initial;
+		grid-column-gap: 10px;
+		grid-row-gap: 30px;
 	}
-	.all-contenas{
-    flex-direction: column;
-    justify-content: space-around;
+	.all-contenas {
+		flex-direction: column;
+		justify-content: space-around;
 	}
-	.receive{
+	.receive {
 		width: 87.5%;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    border-radius: 20px;
-    box-sizing: border-box;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		border-radius: 20px;
+		box-sizing: border-box;
 	}
-	.app{
-    width: 87.5%;
-    margin: 0 auto;
-    border-radius: 20px;
-    box-sizing: border-box;
+	.app {
+		width: 87.5%;
+		margin: 0 auto;
+		border-radius: 20px;
+		box-sizing: border-box;
 	}
 	.cs-list .wrap-cont .txt-left {
-    padding: 20px;
+		padding: 20px;
 	}
-}/* e: 모바일 */
+} /* e: 모바일 */
