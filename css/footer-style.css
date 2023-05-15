@@ -1,1 +1,132 @@
 @charset "uft-8";
+
+.footer {
+	background-color: #f5f5f7;
+	padding: 20px 10px;
+}
+.footer-wrap {
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+}
+.footer-wrap > div {
+	margin: 10px 0;
+}
+.footer-link {
+	overflow: hidden;
+}
+.footer-link ul {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer-link ul li button {
+	border: none;
+	background: none;
+}
+.footer-link ul li span {
+	font-size: 12px;
+	color: #515154;
+}
+.footer-link ul li.menu-img span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: url(../images/icon_large.png) no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+	padding: 5px;
+	padding-left: 0;
+	box-sizing: content-box;
+}
+.footer-link ul li.menu-opcity span {
+	display: inline-block;
+	font-size: 20px;
+	padding-top: 4px;
+	opacity: 0.4;
+}
+.footer-link ul {
+	padding-left: 5px;
+}
+.footer-link ul li button span {
+	font-size: 12px;
+	text-align: left;
+}
+.footer-nav {
+	display: flex;
+	margin: 15px 0 20px 0;
+}
+.footer-nav > div {
+	width: calc(33.333% - 10px);
+}
+.footer-nav .nav:first-child {
+	padding-left: 10px;
+}
+.footer-nav .nav:last-child {
+	padding-right: 10px;
+}
+.footer-nav .nav h3 {
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	color: #1d1d1f;
+	font-size: 13px;
+	font-weight: 800;
+}
+.footer-nav .nav ul {
+	display: flex;
+	flex-direction: column;
+}
+.footer-nav .nav ul li span {
+	color: #515154;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+}
+.footer-wrap .footer-comm {
+	display: flex;
+	position: relative;
+	margin-top: 30px;
+	padding-top: 5px;
+	border-top: 1px solid #d2d2d7;
+	box-sizing: border-box;
+}
+.footer-copyright {
+	display: inline-block;
+	margin-right: 40px;
+}
+.footer-copyright p {
+	display: inline-block;
+	font-size: 12px;
+	color: #515154;
+}
+.quick-link ul {
+	display: flex;
+}
+.quick-link ul li a span {
+	display: inline-block;
+	font-size: 12px;
+	color: #515154;
+	padding: 0 10px;
+	border-right: 1px solid #d2d2d7;
+}
+.quick-link ul li:last-child a span {
+	border-right: none;
+}
+.quick-lang {
+	position: absolute;
+	right: 10px;
+}
+.quick-lang span {
+	display: inline-block;
+	font-size: 12px;
+	color: #515154;
+}
+
+@media screen and (max-width: 1024px) {
+	.footer-copyright {
+		margin-right: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+}

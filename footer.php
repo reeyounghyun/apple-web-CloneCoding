@@ -1,4 +1,4 @@
-<div class="footer">
+<div id="footer" class="footer">
   <div class="footer-wrap">
     <div class="footer-link">
       <select name="link" id="linkBox">
