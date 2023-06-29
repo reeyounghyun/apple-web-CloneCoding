@@ -1,6 +1,7 @@
 @charset "uft-8";
 .wrapper {
 	overflow: hidden;
+	position: relative;
 }
 
 /* s: 배너 이미지 */
@@ -24,14 +25,18 @@
 /* s: header*/
 .header {
 	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 1;
 }
 .header .header-bg {
-	background-color: rgba(251, 251, 253, 0.8);
+	backdrop-filter: var(--globalnav-backdrop-filter);
+	background-color: #e5e5e5f5;
 }
 .header .header-inner {
 	max-width: 980px;
 	margin: 0 auto;
-	padding: 3.5px 0;
 }
 .header .header-inner ul {
 	display: flex;
@@ -39,7 +44,7 @@
 	justify-content: space-around;
 }
 .header .header-inner ul li {
-	padding: 0 10px;
+	padding: 2px 10px;
 }
 .header .header-inner ul li a {
 	display: block;
@@ -83,6 +88,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 }
+
 .product-list .list {
 	display: block;
 	flex: 1 1 auto;
