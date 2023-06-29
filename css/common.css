@@ -7,29 +7,96 @@ html {
 	font-weight: 400;
 	word-break: keep-all;
 	word-wrap: break-word;
-	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-body
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+body html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	vertical-align: baseline;
 }
-body{
+body {
 	-webkit-text-size-adjust: none;
 	width: 100%;
 	height: 100%;
@@ -38,22 +105,33 @@ body{
 	font-weight: 400;
 	letter-spacing: -0.022em;
 
-	font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim",
-	"MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: 'SF Pro KR', 'SF Pro Text', 'SF Pro Icons', 'Apple Gothic', 'HY Gulim',
+		'MalgunGothic', 'HY Dotum', 'Lexi Gulim', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	background-color: white;
 	color: #1d1d1f;
 	font-style: normal;
 	box-sizing: border-box;
 	word-break: break-all;
-
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {display: block;}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
 
-ol, 
-ul 
-{list-style: none;}
+ol,
+ul {
+	list-style: none;
+}
 
 blockquote:before,
 blockquote:after,
@@ -63,20 +141,19 @@ q:after {
 	content: none;
 }
 
-a{
+a {
 	text-decoration: none;
 	font-size: 62.5%;
 	color: #1d1d1f;
-	font-size: 16px;
 	font-weight: 500;
 }
 
-img{
+img {
 	max-width: 100%;
 	width: auto;
 	border: 0;
 	border-style: none;
-} 
+}
 button {
 	cursor: pointer;
 }
@@ -94,7 +171,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: "";
+	content: '';
 	content: none;
 }
 
@@ -103,14 +180,15 @@ q {
 	quotes: none;
 }
 
-em{
+em {
 	font-size: inherit;
 }
 /* e:초기화 */
 
-
 /* s: 공통 스타일  */
-.br{display: none;}
+.br {
+	display: none;
+}
 
 /* .pc-version{display: block;} */
 
@@ -118,11 +196,11 @@ em{
 .gray-background {
 	background-color: #f5f5f7;
 	overflow: hidden;
-} 
+}
 .White-background {
 	background-color: #fff;
 	overflow: hidden;
-} 
+}
 
 /* 공통 타이틀 제목 */
 .link-title {
@@ -133,30 +211,30 @@ em{
 }
 
 /* 폰트 컬러 */
-.txt{
-	color:#1d1d1f;
+.txt {
+	color: #1d1d1f;
 	text-align: center;
 }
-.cs-link a span{
-	color:#0066cc;
-  display: block;
-  text-align: center;
+.cs-link a span {
+	color: #0066cc;
+	display: block;
+	text-align: center;
 }
-strong{
-  font-size: 40px;
-  text-align: center;
-  display: block;
+strong {
+	font-size: 40px;
+	text-align: center;
+	display: block;
 	letter-spacing: -0.05em;
 }
 
 /* div 테두리 */
-.inner-cs{
-  border-radius: 20px;
-  box-sizing: border-box;
+.inner-cs {
+	border-radius: 20px;
+	box-sizing: border-box;
 }
 
 /* 접근성 */
-.txt-inden{
+.txt-inden {
 	position: absolute;
 	text-indent: -9999px;
 	color: initial;
@@ -164,49 +242,47 @@ strong{
 
 /* e: 공통 스타일 */
 
-
-
 /* 컨텐츠 웹 폰트 */
 /** Ultra Light */
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 100;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+	font-family: 'San Francisco';
+	font-weight: 100;
+	src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff');
 }
 
 /** Thin */
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 200;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+	font-family: 'San Francisco';
+	font-weight: 200;
+	src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff');
 }
 
 /** Regular */
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 400;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+	font-family: 'San Francisco';
+	font-weight: 400;
+	src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff');
 }
 
 /** Medium */
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 500;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+	font-family: 'San Francisco';
+	font-weight: 500;
+	src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff');
 }
 
 /** Semi Bold */
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 600;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+	font-family: 'San Francisco';
+	font-weight: 600;
+	src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff');
 }
 
-/** Bold */ 
+/** Bold */
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 700;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+	font-family: 'San Francisco';
+	font-weight: 700;
+	src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff');
 }
 
 /* s: 구글 아이콘 */

@@ -21,6 +21,51 @@
 }
 /* e: 전체를 묶는 div */
 
+/* s: header*/
+.header {
+	overflow: hidden;
+}
+.header .header-bg {
+	background-color: rgba(251, 251, 253, 0.8);
+}
+.header .header-inner {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 3.5px 0;
+}
+.header .header-inner ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.header .header-inner ul li {
+	padding: 0 10px;
+}
+.header .header-inner ul li a {
+	display: block;
+}
+.header .header-inner ul li span {
+	display: block;
+	padding: 6px 0;
+}
+.header .header-inner ul li img {
+	display: block;
+}
+.header-home {
+	display: inline-block;
+	width: 20px;
+	height: 13px;
+	background: url(../images/icon_large.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.header .header-inner ul li .header .header-inner ul li a {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+}
+/* e: header */
+
 /* s: apple 지원*/
 .link-area .link-title {
 	padding-bottom: 54px;
@@ -77,6 +122,7 @@
 }
 .popular-cs ul li span {
 	display: block;
+	font-size: 16px;
 	padding-top: 10px;
 	letter-spacing: -0.07em;
 	text-align: center;
@@ -178,6 +224,7 @@
 	padding-bottom: 10px;
 	letter-spacing: -0.02em;
 	color: rgb(29, 29, 31);
+	font-size: 14px;
 	font-size: 15px;
 }
 .inner-cs .cs-link a {
@@ -189,6 +236,7 @@
 	display: inline-block;
 	letter-spacing: -0.08em;
 	font-weight: 600;
+	font-size: 14px;
 	opacity: 0.8;
 }
 .inner-cs .cs-link a .goo-icon {
@@ -488,6 +536,12 @@
 		margin: 60px;
 	}
 } /* e: 태블릿 */
+
+@media screen and (max-width: 830px) {
+	.header .header-inner ul li {
+		display: none;
+	}
+}
 
 @media screen and (max-width: 768px) {
 	.apple-service {
